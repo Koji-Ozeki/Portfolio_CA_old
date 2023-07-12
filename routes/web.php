@@ -14,11 +14,11 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function () {
-    return view('posts.index');
-});
+// Route::get('/', function () {
+//     return view('posts.index');
+// });
 
 
-Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
+Route::get('/', [PostController::class, 'index'])->name('posts.index');
 Route::get('/posts/documents', [PostController::class, 'documents'])->name('posts.documents');
 Route::get('/posts/contact', [PostController::class, 'contact'])->name('posts.contact');
