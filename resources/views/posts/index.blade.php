@@ -38,6 +38,7 @@
 </div>
 
 <div class="line">
+    <h1>LINEの友達追加をしていただいた方限定で【面接対策資料】を<navi>期間限定プレゼント</navi>しております！</h1>
     <p>まずは相談したいだけでも構いませんので、お気軽に以下LINEよりご連絡ください！！</p>
 
     <div style="display: flex; justify-content: center;">
